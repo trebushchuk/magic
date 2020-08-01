@@ -1,0 +1,25 @@
+{
+  "name": "magic",
+  "version": "1.0.0",
+  "description": "Magic compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "magic",
+    "jison"
+  ],
+  "author": "Vladimir Trebushchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.1.0",
+    "jison-loader": "^1.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
